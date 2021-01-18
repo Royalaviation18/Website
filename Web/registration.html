@@ -1,0 +1,106 @@
+  
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration form</title>
+</head>
+
+<body style="background-color: #eaeaea;">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+    integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+    crossorigin="anonymous"></script>
+
+  <nav class="navbar navbar-light" style="background-color: #272727;">
+    <div class="container-fluid">
+      <a class="navbar-brand" style="color:#eaeaea;align-content: center;"><b><i> STUDENT REGISTRATION</b></i></a>
+    </div>
+  </nav>
+  <div style="box-shadow: 3px 3px 20px #333;padding: 0;" class="container">
+    <div class="container d-flex justify-content-center align-items-center mt-5" style="background-image: url('1.jpg'); height:150px;">
+      <h2 style="color: beige;">Welcome to Registration page</h2>
+    </div>
+    <div class="container p-4" style="background-color: #fefefe;color:#444444;">
+      <h3 style="">Enter your details</h3>
+      <form action="reg.php" method="post">
+      <div class="row  mb-3">
+        <div class="col-md-6 col-sm-12 mb-3">
+          <input type="text" name ="firstname" class="form-control" placeholder="First name" aria-label="First name">
+        </div>
+        <div class="col-md-6 col-sm-12 mb-3">
+          <input type="text" name ="lastname" class="form-control" placeholder="Last name" aria-label="Last name">
+        </div>
+      </div>
+
+      <div class="row ">
+        <div class="col-md-6 col-sm-12 mb-3">
+          <input type="text" name ="housename" class="form-control" placeholder="HouseName" aria-label="HouseName">
+        </div>
+        <div class="col-md-6 col-sm-12 mb-3">
+          <input type="text" name ="locality" class="form-control" placeholder="Locality" aria-label="Locality">
+        </div>
+      </div>
+      <div class="row ">
+        <div class="col-md-6 col-sm-12 mb-3">
+          <input type="text"name ="district" class="form-control" placeholder="District" aria-label="District">
+        </div>
+        <div class="col-md-6 col-sm-12 mb-3">
+          <input type="pincode" name ="pincode" class="form-control" placeholder="Pincode" aria-label="Pincode">
+        </div>
+      </div>
+      <div class="row ">
+        <div class="col-md-6 col-sm-12 mb-3">
+          <input type="text" name ="branch" class="form-control" placeholder="Branch" aria-label="Branch">
+        </div>
+        <div class="col-md-6 col-sm-12 mb-3">
+          <input type="year"name ="year" class="form-control" placeholder="Year" aria-label="Year">
+        </div>
+      </div>
+      <div class="row ">
+        <div class="col-md-6 col-sm-12 mb-3">
+          <input type="text"name ="registrationno" class="form-control" placeholder="Registration No" aria-label="Registration No">
+        </div>
+        <div class="col-md-6 col-sm-12 mb-3">
+          <input type="text" name ="pickuppoint" class="form-control" placeholder="Pick-up Point" aria-label="Pick-up Point">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-sm-12 mb-3">
+          <input type="text" name ="droppoint" class="form-control" placeholder="Drop-point" aria-label="Drop-point">
+        </div>
+        <div class="col-md-6 col-sm-12 mb-3">
+          <input type="text" name ="busroute" class="form-control" placeholder="Bus Route" aria-label="Bus Route">
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-md-6 col-sm-12 mb-3">
+          <input type="text" name ="phoneno" class="form-control" placeholder="Phone No" aria-label="phone no">
+        </div>
+      
+        <div class="col-md-6 col-sm-12 mb-3">
+          <input type="fees" name ="fees" class="form-control" placeholder="Fees" aria-label="Fees">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-sm-12 mb-3">
+          <button class="btn btn-outline-success" type="submit" name="submit"
+            style="color:#ffffff;background-color:green";>Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </form>
+</body>
+
+</html>
